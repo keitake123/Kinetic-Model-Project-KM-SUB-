@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run MATLAB Script",
+        "type": "shell",
+        "command": "matlab",
+        "args": [
+          "-nosplash",
+          "-nodesktop",
+          "-r",
+          "run('path_to_your_script.m');exit;"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
